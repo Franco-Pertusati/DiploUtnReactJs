@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  border-bottom: 1px solid var(--border);
+}
+
+.container nav {
+  margin: 0 auto;
+  max-width: 1080px;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.container h1 {
+  color: var(--primary);
+}
+
+.container ul {
+  display: flex;
+  flex-grow: 1;
+  gap: 8px;
+  justify-content: space-evenly;
+}
+
+.container li {
+  list-style: none;
+}

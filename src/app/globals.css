@@ -1,11 +1,17 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(0, 0%, 9%);
+
+  --background-medium: hsl(0, 0%, 10%);
+  --background-light: hsl(0, 0%, 16%);
+
+  --primary: hsl(154, 92%, 48%);
+  --border: hsl(0, 0%, 20%)
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: hsl(0, 0%, 4%);
     --foreground: #ededed;
   }
 }
@@ -18,7 +24,7 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--background-medium);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
