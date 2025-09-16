@@ -1,14 +1,13 @@
-import styles from "./page.module.css";
-import Navbar from "./navbar/navbar";
-import NextJsImages from "./nextJsImages/nextJsImages";
-import Counter from "./counter/counter";
+import Header from "@/components/header/header";
+import MarqueeContainer from "@/components/marquee-container/marquee-container";
+import Navbar from "@/components/navbar/navbar";
 
 export default function Home() {
   return (
-    <div className={styles.wasd}>
-      <Navbar/>
-      <NextJsImages />
-      <Counter />
+    <div className="flex flex-col gap-24">
+      <Navbar />
+      <Header />
+      <MarqueeContainer />
     </div>
   );
 }
