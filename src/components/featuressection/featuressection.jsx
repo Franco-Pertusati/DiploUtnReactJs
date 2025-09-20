@@ -8,7 +8,7 @@ const FeaturesSection = () => {
   const { theme } = useTheme();
 
   return (
-    <div className="flex gap-2 max-w-5xl mx-auto flex-wrap px-4">
+    <div className="flex gap-2 max-w-6xl mx-auto flex-wrap px-4">
       <MagicCard
         gradientColor={theme === "dark" ? "#262626" : "#D9D9D955"}
         className="p-4 rounded-xl grow"
